@@ -1,0 +1,10 @@
+<html>
+   <head>
+      <title>Display Uploaded Image</title>
+   </head>
+   <body>
+	   <h1>This is a "{{result}}"<h1>
+	   <img src="data:image/jpeg;base64,{{ myImage | safe }}" width="400" height="400">
+	
+   </body>
+</html>
